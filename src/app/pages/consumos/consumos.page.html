@@ -2,7 +2,14 @@
 <ion-content>
     <ion-card>
         <ion-card-header>
-            <ion-card-title>Llamadas</ion-card-title>
+            <ion-toolbar>
+                <ion-card-title>Llamadas</ion-card-title>
+                <ion-buttons slot="end">
+                    <ion-button>
+                        <ion-icon name="phone-portrait"></ion-icon>
+                    </ion-button>
+                </ion-buttons>
+            </ion-toolbar>
         </ion-card-header>
         <ion-card-content>
             <a [routerLink]="['llamadas']">Ver Detalles</a>
@@ -10,7 +17,14 @@
     </ion-card>
     <ion-card>
         <ion-card-header>
-            <ion-card-title>mensajes</ion-card-title>
+            <ion-toolbar>
+                <ion-card-title>mensajes</ion-card-title>
+                <ion-buttons slot="end">
+                    <ion-button>
+                        <ion-icon name="mail"></ion-icon>
+                    </ion-button>
+                </ion-buttons>
+            </ion-toolbar>
         </ion-card-header>
         <ion-card-content>
             <a [routerLink]="['mensajes']">Ver Detalles</a>

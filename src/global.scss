@@ -27,3 +27,10 @@
 
 /* Atomic design Tigo */
 @import "https://atomic.tigocloud.net/sandbox/css/main.css";
+
+/* custom */
+a {
+    color: var(--ion-color-secondary) !important;
+    font-weight: bold;
+    text-decoration: none;
+  }

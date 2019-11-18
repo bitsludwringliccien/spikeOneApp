@@ -10,11 +10,11 @@ const routes: Routes = [
   },
   {
     path: 'llamadas',
-    loadChildren: () => import('./child/llamadas/llamadas.module').then( m => m.LlamadasPageModule)
+    loadChildren: () => import('./childs/llamadas/llamadas.module').then(m => m.LlamadasPageModule)
   },
   {
     path: 'mensajes',
-    loadChildren: () => import('./child/mensajes/mensajes.module').then( m => m.MensajesPageModule)
+    loadChildren: () => import('./childs/mensajes/mensajes.module').then(m => m.MensajesPageModule)
   }
 ];
 
@@ -22,4 +22,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class ConsumosPageRoutingModule {}
+export class ConsumosPageRoutingModule { }

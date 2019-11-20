@@ -1,0 +1,202 @@
+{
+    "lines": [
+        "3123901700",
+        "3123901701"
+    ],
+    "consumptions": [
+        {
+            "id": "3123901700",
+            "calls": [
+                {
+                    "targetNumber": "300*****34",
+                    "eventDateTime": "2019-10-20T18:40:13-05:00",
+                    "eventDuration": "23"
+                },
+                {
+                    "targetNumber": "300*****34",
+                    "eventDateTime": "2019-10-22T18:40:13-05:00",
+                    "eventDuration": "23"
+                },
+                {
+                    "targetNumber": "300*****34",
+                    "eventDateTime": "2019-10-24T18:40:13-05:00",
+                    "eventDuration": "23"
+                },
+                {
+                    "targetNumber": "300*****34",
+                    "eventDateTime": "2019-10-26T18:40:13-05:00",
+                    "eventDuration": "23"
+                },
+                {
+                    "targetNumber": "300*****34",
+                    "eventDateTime": "2019-10-28T18:40:13-05:00",
+                    "eventDuration": "23"
+                },
+                {
+                    "targetNumber": "300*****34",
+                    "eventDateTime": "2019-10-30T18:40:13-05:00",
+                    "eventDuration": "23"
+                },
+                {
+                    "targetNumber": "300*****34",
+                    "eventDateTime": "2019-11-01T18:40:13-05:00",
+                    "eventDuration": "23"
+                },
+                {
+                    "targetNumber": "300*****34",
+                    "eventDateTime": "2019-11-03T18:40:13-05:00",
+                    "eventDuration": "23"
+                },
+                {
+                    "targetNumber": "300*****34",
+                    "eventDateTime": "2019-11-05T18:40:13-05:00",
+                    "eventDuration": "23"
+                },
+                {
+                    "targetNumber": "300*****34",
+                    "eventDateTime": "2019-11-07T18:40:13-05:00",
+                    "eventDuration": "23"
+                }
+            ],
+            "messages": [
+                {
+                    "targetNumber": "300*****34",
+                    "eventDateTime": "2019-10-20T18:40:13-05:00"
+                },
+                {
+                    "targetNumber": "300*****34",
+                    "eventDateTime": "2019-10-22T18:40:13-05:00"
+                },
+                {
+                    "targetNumber": "300*****34",
+                    "eventDateTime": "2019-10-24T18:40:13-05:00"
+                },
+                {
+                    "targetNumber": "300*****34",
+                    "eventDateTime": "2019-10-26T18:40:13-05:00"
+                },
+                {
+                    "targetNumber": "300*****34",
+                    "eventDateTime": "2019-10-28T18:40:13-05:00"
+                },
+                {
+                    "targetNumber": "300*****34",
+                    "eventDateTime": "2019-10-30T18:40:13-05:00"
+                },
+                {
+                    "targetNumber": "300*****34",
+                    "eventDateTime": "2019-11-01T18:40:13-05:00"
+                },
+                {
+                    "targetNumber": "300*****34",
+                    "eventDateTime": "2019-11-03T18:40:13-05:00"
+                },
+                {
+                    "targetNumber": "300*****34",
+                    "eventDateTime": "2019-11-05T18:40:13-05:00"
+                },
+                {
+                    "targetNumber": "300*****34",
+                    "eventDateTime": "2019-11-07T18:40:13-05:00"
+                }
+            ]
+        },
+        {
+            "id": "3123901701",
+            "calls": [
+                {
+                    "targetNumber": "300*****35",
+                    "eventDateTime": "2019-10-20T18:40:13-05:00",
+                    "eventDuration": "23"
+                },
+                {
+                    "targetNumber": "300*****35",
+                    "eventDateTime": "2019-10-22T18:40:13-05:00",
+                    "eventDuration": "23"
+                },
+                {
+                    "targetNumber": "300*****35",
+                    "eventDateTime": "2019-10-24T18:40:13-05:00",
+                    "eventDuration": "23"
+                },
+                {
+                    "targetNumber": "300*****35",
+                    "eventDateTime": "2019-10-26T18:40:13-05:00",
+                    "eventDuration": "23"
+                },
+                {
+                    "targetNumber": "300*****35",
+                    "eventDateTime": "2019-10-28T18:40:13-05:00",
+                    "eventDuration": "23"
+                },
+                {
+                    "targetNumber": "300*****35",
+                    "eventDateTime": "2019-10-30T18:40:13-05:00",
+                    "eventDuration": "23"
+                },
+                {
+                    "targetNumber": "300*****35",
+                    "eventDateTime": "2019-11-01T18:40:13-05:00",
+                    "eventDuration": "23"
+                },
+                {
+                    "targetNumber": "300*****35",
+                    "eventDateTime": "2019-11-03T18:40:13-05:00",
+                    "eventDuration": "23"
+                },
+                {
+                    "targetNumber": "300*****35",
+                    "eventDateTime": "2019-11-05T18:40:13-05:00",
+                    "eventDuration": "23"
+                },
+                {
+                    "targetNumber": "300*****35",
+                    "eventDateTime": "2019-11-07T18:40:13-05:00",
+                    "eventDuration": "23"
+                }
+            ],
+            "messages": [
+                {
+                    "targetNumber": "300*****35",
+                    "eventDateTime": "2019-10-20T18:40:13-05:00"
+                },
+                {
+                    "targetNumber": "300*****35",
+                    "eventDateTime": "2019-10-22T18:40:13-05:00"
+                },
+                {
+                    "targetNumber": "300*****35",
+                    "eventDateTime": "2019-10-24T18:40:13-05:00"
+                },
+                {
+                    "targetNumber": "300*****35",
+                    "eventDateTime": "2019-10-26T18:40:13-05:00"
+                },
+                {
+                    "targetNumber": "300*****35",
+                    "eventDateTime": "2019-10-28T18:40:13-05:00"
+                },
+                {
+                    "targetNumber": "300*****35",
+                    "eventDateTime": "2019-10-30T18:40:13-05:00"
+                },
+                {
+                    "targetNumber": "300*****35",
+                    "eventDateTime": "2019-11-01T18:40:13-05:00"
+                },
+                {
+                    "targetNumber": "300*****35",
+                    "eventDateTime": "2019-11-03T18:40:13-05:00"
+                },
+                {
+                    "targetNumber": "300*****35",
+                    "eventDateTime": "2019-11-05T18:40:13-05:00"
+                },
+                {
+                    "targetNumber": "300*****35",
+                    "eventDateTime": "2019-11-07T18:40:13-05:00"
+                }
+            ]
+        }
+    ]
+}

@@ -5,6 +5,11 @@
         <ion-icon name="phone-portrait"></ion-icon>
       </ion-button>
     </ion-buttons>
+    <ion-select #line interface="action-sheet" cancel-text="X" (ionChange)="selectLine(line.value)">
+      <ion-select-option *ngFor="let line of lines" [value]="line.id" [selected]="line.id == '3123901700'">
+        {{ line.type }} - {{ line.id }}
+      </ion-select-option>
+    </ion-select>
     <ion-buttons slot="end">
       <ion-button>
         <ion-icon name="help-circle-outline"></ion-icon>

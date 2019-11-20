@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { ConsumosService } from '../../../pages/consumos/services/consumos.service';
+import { Line } from '../../../core/interfaces/line';
 
 @Component({
   selector: 'app-header',
@@ -7,8 +9,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  @Output() selectedLine: EventEmitter<string> = new EventEmitter<string>();
+  lines: Line[];
+  constructor(private consumosSevices: ConsumosService) { }
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.consumosSevices.getLines()
+      .subscribe(
+        lines => {
+          console.log(lines);
+          return this.lines = lines;
+        }
+      );
+
+  }
+
+  selectLine(value) {
+    console.log(value);
+    this.selectedLine.emit(value);
+  }
 
 }

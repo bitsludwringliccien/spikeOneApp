@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ConsumosService } from '../../services/consumos.service';
 
 @Component({
   selector: 'app-mensajes',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MensajesPage implements OnInit {
 
-  constructor() { }
+  constructor(private consumosService: ConsumosService) { }
 
   ngOnInit() {
+    const id = this.consumosService.lineSelected;
+    this.consumosService.getConsumptionsById(id)
+      .subscribe(
+        consumos => {
+          console.log(consumos);
+
+        }
+      );
+
   }
 
 }

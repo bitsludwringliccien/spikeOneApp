@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ConsumosService } from '../../services/consumos.service';
+import { Message } from '../../../../core/interfaces/consumptions';
 
 @Component({
   selector: 'app-mensajes',
@@ -7,6 +8,8 @@ import { ConsumosService } from '../../services/consumos.service';
   styleUrls: ['./mensajes.page.scss'],
 })
 export class MensajesPage implements OnInit {
+
+  mensajes: Message[];
 
   constructor(private consumosService: ConsumosService) { }
 
@@ -16,9 +19,19 @@ export class MensajesPage implements OnInit {
       .subscribe(
         consumos => {
           console.log(consumos);
+          this.mensajes = consumos.messages;
 
         }
       );
+
+  }
+
+  getStart(startDate: string) {
+    console.log('mensajes', startDate);
+  }
+
+  getEnd(endDate: string) {
+    console.log('mensajes', endDate);
 
   }
 

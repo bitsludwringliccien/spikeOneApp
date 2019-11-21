@@ -4,13 +4,13 @@ export interface Consumptions {
     messages: Message[];
 }
 
-interface Call {
+export interface Call {
     targetNumber: string;
     eventDateTime: string;
     eventDuration: string;
 }
 
-interface Message {
+export interface Message {
     targetNumber: string;
     eventDateTime: string;
 }

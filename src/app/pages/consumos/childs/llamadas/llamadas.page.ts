@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ConsumosService } from '../../services/consumos.service';
+import { Call } from '../../../../core/interfaces/consumptions';
 
 @Component({
   selector: 'app-llamadas',
@@ -7,6 +8,8 @@ import { ConsumosService } from '../../services/consumos.service';
   styleUrls: ['./llamadas.page.scss'],
 })
 export class LlamadasPage implements OnInit {
+
+  llamadas: Call[];
 
   constructor(private consumosService: ConsumosService) { }
 
@@ -16,7 +19,7 @@ export class LlamadasPage implements OnInit {
       .subscribe(
         consumos => {
           console.log(consumos);
-
+          this.llamadas = consumos.calls;
         }
       );
 

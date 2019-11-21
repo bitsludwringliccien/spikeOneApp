@@ -22,4 +22,14 @@ export class LlamadasPage implements OnInit {
 
   }
 
+
+  getStart(startDate: string) {
+    console.log('llamadas', startDate);
+  }
+
+  getEnd(endDate: string) {
+    console.log('llamadas', endDate);
+
+  }
+
 }

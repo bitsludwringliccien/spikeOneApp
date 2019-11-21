@@ -4,6 +4,8 @@ import { IonicModule } from '@ionic/angular';
 import { HttpClientModule } from '@angular/common/http';
 import { TabBarComponent } from './components/tab-bar/tab-bar.component';
 import { HeaderComponent } from './components/header/header.component';
+import { DatePikerStartEndComponent } from './components/date-piker-start-end/date-piker-start-end.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -12,12 +14,13 @@ import { HeaderComponent } from './components/header/header.component';
 
 
 @NgModule({
-  declarations: [TabBarComponent, HeaderComponent],
+  declarations: [TabBarComponent, HeaderComponent, DatePikerStartEndComponent],
   imports: [
     CommonModule,
     IonicModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
   ],
-  exports: [TabBarComponent, HeaderComponent]
+  exports: [TabBarComponent, HeaderComponent, DatePikerStartEndComponent]
 })
 export class SharedModule { }

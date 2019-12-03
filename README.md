@@ -6,6 +6,8 @@ Este proyecto es una aproximacion a OneApp utilizando la mejores practicas de Io
 
 Instalar de forma global `npm i -g ionic @angular/cli json-server`
 
+Ejecutar `npm install`
+
 ## Backend
 
 Ejecutar en la raiz del proyecto `json-server --watch db.json`

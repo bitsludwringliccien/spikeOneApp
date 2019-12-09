@@ -1,4 +1,4 @@
 export interface Line {
-    id: string;
-    type: string;
+  id: string;
+  type: string;
 }

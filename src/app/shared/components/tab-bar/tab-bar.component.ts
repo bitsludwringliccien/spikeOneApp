@@ -1,14 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-tab-bar',
-  templateUrl: './tab-bar.component.html',
-  styleUrls: ['./tab-bar.component.scss'],
+  selector: "app-tab-bar",
+  templateUrl: "./tab-bar.component.html",
+  styleUrls: ["./tab-bar.component.scss"]
 })
 export class TabBarComponent implements OnInit {
-
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {}
-
 }

@@ -1,13 +1,13 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { environment } from 'src/environments/environment';
-import { Line } from 'src/app/core/interfaces/line';
-import { Consumptions } from 'src/app/core/interfaces/consumptions';
+import { Line } from '../../../core/interfaces/line';
+import { environment } from '../../../../environments/environment';
+import { Consumptions } from '../../../core/interfaces/consumptions';
 
 @Injectable({
   providedIn: 'root'
 })
-export class ConsumosService {
+export class ConsumptionsService {
 
   lineSelected = '3123901700';
 

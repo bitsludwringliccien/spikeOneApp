@@ -1,0 +1,26 @@
+<ion-list>
+    <ion-list-header>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <div>Fecha y Hora</div>
+          </ion-col>
+          <ion-col>
+            <div>Destino</div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-list-header>
+    <ion-item *ngFor="let message of messages">
+      <ion-grid>
+        <ion-row>
+          <ion-col class="ion-text-left">
+            <div>{{ message.eventDateTime }}</div>
+          </ion-col>
+          <ion-col class="ion-text-right">
+            <div>{{ message.targetNumber }}</div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+  </ion-list>

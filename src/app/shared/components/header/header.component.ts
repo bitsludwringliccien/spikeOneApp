@@ -10,10 +10,10 @@ import { ConsumptionsService } from "src/app/pages/consumptions/services/consump
 export class HeaderComponent implements OnInit {
   @Output() selectedLine: EventEmitter<string> = new EventEmitter<string>();
   lines: Line[];
-  constructor(private consumptionsService: ConsumptionsService) {}
+  constructor(private consumptionsService: ConsumptionsService) { }
 
   ngOnInit() {
-    this.consumptionsService.getLines().subscribe(lines => {
+    this.consumptionsService.getLines().then(lines => {
       console.log(lines);
       return (this.lines = lines);
     });

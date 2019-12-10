@@ -10,15 +10,15 @@ import { Consumptions } from "../../../core/interfaces/consumptions";
 export class ConsumptionsService {
   lineSelected = "3123901700";
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
-  getLines() {
-    return this.http.get<Line[]>(`${environment.bUrl}/lines`);
+  async getLines() {
+    return await this.http.get<Line[]>(`${environment.bUrl}/lines`).toPromise();
   }
 
-  getConsumptionsById(id: string) {
-    return this.http.get<Consumptions>(
+  async getConsumptionsById(id: string) {
+    return await this.http.get<Consumptions>(
       `${environment.bUrl}/consumptions/${id}`
-    );
+    ).toPromise();
   }
 }

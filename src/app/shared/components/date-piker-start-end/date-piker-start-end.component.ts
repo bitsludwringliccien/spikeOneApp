@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, EventEmitter, Output } from "@angular/core";
+import { Component, OnInit, Input, EventEmitter, Output, ChangeDetectionStrategy } from "@angular/core";
 import { ToastController } from "@ionic/angular";
 import * as moment from "moment";
 import "moment/locale/es";
@@ -70,16 +70,16 @@ moment.locale("es");
         color: gray;
       }
     `
-  ]
+  ],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class DatePikerStartEndComponent implements OnInit {
   start: string;
   end: string;
   @Input() rango: number = 15;
-  @Output() startDate: EventEmitter<string> = new EventEmitter<string>();
-  @Output() endDate: EventEmitter<string> = new EventEmitter<string>();
+  @Output() selectedRange: EventEmitter<object> = new EventEmitter<object>();
 
-  constructor(private toastController: ToastController) {}
+  constructor(private toastController: ToastController) { }
 
   ngOnInit() {
     this.start = moment()
@@ -103,8 +103,7 @@ export class DatePikerStartEndComponent implements OnInit {
       toast.present();
     } else {
       console.log("menor");
-      this.startDate.emit(this.start);
-      this.endDate.emit(this.end);
+      this.selectedRange.emit({ "start": this.start, "end": this.end });
     }
   }
 }

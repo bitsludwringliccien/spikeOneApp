@@ -2,6 +2,7 @@ import { Component, OnInit, Input, EventEmitter, Output, ChangeDetectionStrategy
 import { ToastController } from "@ionic/angular";
 import * as moment from "moment";
 import "moment/locale/es";
+import { SelectedRange } from '../../../core/interfaces/selected-range';
 
 moment.locale("es");
 @Component({
@@ -77,7 +78,7 @@ export class DatePikerStartEndComponent implements OnInit {
   start: string;
   end: string;
   @Input() rango: number = 15;
-  @Output() selectedRange: EventEmitter<object> = new EventEmitter<object>();
+  @Output() selectedRange: EventEmitter<SelectedRange> = new EventEmitter<SelectedRange>();
 
   constructor(private toastController: ToastController) { }
 

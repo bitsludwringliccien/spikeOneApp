@@ -1,6 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { ConsumptionsService } from "../../../../../../pages/consumptions/services/consumptions.service";
 import { Call } from "../../../../../../core/interfaces/consumptions";
+import { SelectedRange } from '../../../../../../core/interfaces/selected-range';
 
 @Component({
   selector: "app-calls-card",
@@ -26,7 +27,7 @@ export class CallsCard implements OnInit {
 
   }
 
-  async filterRange(selectedRange: object) {
+  async filterRange(selectedRange: SelectedRange) {
     console.log("llamadas", selectedRange);
     await this.getCalls();
     let newCalls = this.calls.filter(call => {

@@ -1,6 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { ConsumptionsService } from "../../../../../../pages/consumptions/services/consumptions.service";
 import { Message } from "../../../../../../core/interfaces/consumptions";
+import { SelectedRange } from '../../../../../../core/interfaces/selected-range';
 
 @Component({
   selector: "app-messages-card",
@@ -25,7 +26,7 @@ export class MessagesCard implements OnInit {
   }
 
 
-  async filterRange(selectedRange: object) {
+  async filterRange(selectedRange: SelectedRange) {
     console.log("mensages", selectedRange);
     await this.getMessages();
     let newMessages = this.messages.filter(message => {

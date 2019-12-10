@@ -11,10 +11,9 @@ export class ConsumptionsPage implements OnInit {
   constructor(
     private consumptionsService: ConsumptionsService,
     private router: Router
-  ) {}
+  ) { }
 
   ngOnInit() {
-    console.log(this.router);
   }
 
   onSelectedLine(line: string) {

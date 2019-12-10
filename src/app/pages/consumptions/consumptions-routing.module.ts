@@ -19,7 +19,7 @@ const routes: Routes = [
       import('./childs/messages/messages.module').then(
         m => m.MessagesPageModule
       )
-  },
+  }
 ];
 
 @NgModule({

@@ -14,21 +14,24 @@
       </ion-row>
     </ion-grid>
   </ion-list-header>
-  <ion-item *ngFor="let call of calls">
-    <ion-grid>
-      <ion-row>
-        <ion-col class="ion-text-left">
-          <div>{{ call.eventDateTime }}</div>
-        </ion-col>
-        <ion-col class="ion-text-center">
-          <div>{{ call.targetNumber }}</div>
-        </ion-col>
-        <ion-col class="ion-text-right">
-          <div>{{ call.eventDuration }}</div>
-        </ion-col>
-      </ion-row>
-    </ion-grid>
-  </ion-item>
+  <ion-spinner *ngIf="loading" color="primary"></ion-spinner>
+  <div *ngIf="!loading">
+    <ion-item *ngFor="let call of calls">
+      <ion-grid>
+        <ion-row>
+          <ion-col class="ion-text-left">
+            <div>{{ call.eventDateTime }}</div>
+          </ion-col>
+          <ion-col class="ion-text-center">
+            <div>{{ call.targetNumber }}</div>
+          </ion-col>
+          <ion-col class="ion-text-right">
+            <div>{{ call.eventDuration }}</div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+  </div>
 </ion-list>
 <ng-template #callsEmpty>
   <ion-card>

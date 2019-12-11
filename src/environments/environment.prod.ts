@@ -1,4 +1,5 @@
 export const environment = {
   production: true,
-  bUrl: 'http://localhost:3000'
+  bUrl: 'http://selfcare.dev.co',
+  bLocal: ' http://localhost:3000'
 };

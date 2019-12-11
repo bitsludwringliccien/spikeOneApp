@@ -5,11 +5,11 @@ import { Call } from "src/app/core/interfaces/consumptions";
   selector: "app-calls-lists",
   templateUrl: "./calls-lists.component.html",
   styleUrls: ["./calls-lists.component.scss"],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  // changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class CallsListsComponent implements OnInit {
   @Input() calls: Call[];
-
+  @Input() loading: boolean;
   constructor() { }
 
   ngOnInit() { }

@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  bUrl: 'http://localhost:3000'
+  bUrl: 'http://selfcare.dev.co',
+  bLocal: ' http://localhost:3000'
 };
 
 /*
@@ -13,5 +14,6 @@ export const environment = {
  *
  * This import should be commented out in production mode because it will have a negative impact
  * on performance if an error is thrown.
+ * http://selfcare.dev.co/api/v2/mobile/consumptions/3123901701
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.

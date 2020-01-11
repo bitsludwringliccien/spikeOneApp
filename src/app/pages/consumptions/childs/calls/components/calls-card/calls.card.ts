@@ -21,13 +21,19 @@ export class CallsCard implements OnInit {
 
   async getCalls() {
     this.loadingList = true;
+    console.log('loadingList', this.loadingList);
     const id = this.consumptionsService.lineSelected;
-    await this.consumptionsService.getConsumptionsById(id).then(consumos => {
-      console.log(consumos.data[0].calls);
-      this.calls = consumos.data[0].calls;
-      this.loading = false;
-      this.loadingList = false;
-    });
+    await this.consumptionsService.getConsumptionsById(id) //.toPromise()
+      .then(consumos => {
+        console.log(consumos.data.calls);
+        this.calls = consumos.data.calls;
+        this.loading = false;
+        console.log('loading', this.loading);
+
+        this.loadingList = false;
+        console.log('loadingList', this.loadingList);
+
+      });
     console.log('get');
 
   }

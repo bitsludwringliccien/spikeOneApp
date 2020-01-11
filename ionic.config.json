@@ -1,7 +1,8 @@
 {
   "name": "oneApp",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }

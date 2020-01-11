@@ -1,0 +1,184 @@
+{
+    "prepaidTabs": [
+        {
+            "title": "Saldos",
+            "icon_on": "assets/custom-icons/saldos-on.svg",
+            "icon_off": "assets/custom-icons/saldos-off.svg",
+            "isActive": true
+        },
+        {
+            "title": "Consumos",
+            "icon_on": "assets/custom-icons/consumos-on.svg",
+            "icon_off": "assets/custom-icons/consumos-off.svg",
+            "isActive": false
+        },
+        {
+            "title": "Servicios",
+            "icon_on": "assets/custom-icons/servicios-on.svg",
+            "icon_off": "assets/custom-icons/servicios-off.svg",
+            "isActive": false
+        },
+        {
+            "title": "Compras",
+            "icon_on": "assets/custom-icons/offers-on.svg",
+            "icon_off": "assets/custom-icons/offers-off.svg",
+            "isActive": false
+        },
+        {
+            "title": "Más",
+            "icon_on": "assets/custom-icons/mas-on.svg",
+            "icon_off": "assets/custom-icons/mas-off.svg",
+            "isActive": false
+        },
+        {
+            "title": "Soporte Técnico",
+            "icon_on": "assets/imgs/soporte.svg",
+            "icon_off": "assets/imgs/soporte.svg",
+            "isActive": false
+        },
+        {
+            "title": "Consulta y radica PQR",
+            "icon_on": "assets/imgs/consulta.svg",
+            "icon_off": "assets/imgs/consulta.svg",
+            "isActive": false
+        }
+    ],
+    "postpaidTabs": [
+        {
+            "title": "Factura",
+            "icon_on": "assets/custom-icons/factura-on.svg",
+            "icon_off": "assets/custom-icons/factura-off.svg",
+            "isActive": true
+        },
+        {
+            "title": "Consumos",
+            "icon_on": "assets/custom-icons/consumos-on.svg",
+            "icon_off": "assets/custom-icons/consumos-off.svg",
+            "isActive": false
+        },
+        {
+            "title": "Servicios",
+            "icon_on": "assets/custom-icons/servicios-on.svg",
+            "icon_off": "assets/custom-icons/servicios-off.svg",
+            "isActive": false
+        },
+        {
+            "title": "Compras",
+            "icon_on": "assets/custom-icons/offers-on.svg",
+            "icon_off": "assets/custom-icons/offers-off.svg",
+            "isActive": false
+        },
+        {
+            "title": "Más",
+            "icon_on": "assets/custom-icons/mas-on.svg",
+            "icon_off": "assets/custom-icons/mas-off.svg",
+            "isActive": false
+        },
+        {
+            "title": "Soporte Técnico",
+            "icon_on": "assets/imgs/soporte.svg",
+            "icon_off": "assets/imgs/soporte.svg",
+            "isActive": false
+        },
+        {
+            "title": "Consulta y radica PQR",
+            "icon_on": "assets/imgs/consulta.svg",
+            "icon_off": "assets/imgs/consulta.svg",
+            "isActive": false
+        }
+    ],
+    "homeTabs": [
+        {
+            "title": "Factura",
+            "icon_on": "assets/custom-icons/factura-on.svg",
+            "icon_off": "assets/custom-icons/factura-off.svg",
+            "isActive": true
+        },
+        {
+            "title": "Servicios",
+            "icon_on": "assets/custom-icons/servicios-on.svg",
+            "icon_off": "assets/custom-icons/servicios-off.svg",
+            "isActive": false
+        },
+        {
+            "title": "Compras",
+            "icon_on": "assets/custom-icons/offers-on.svg",
+            "icon_off": "assets/custom-icons/offers-off.svg",
+            "isActive": false
+        },
+        {
+            "title": "Soporte",
+            "icon_on": "assets/imgs/tech-visit-on.svg",
+            "icon_off": "assets/imgs/tech-visit-off.svg",
+            "isActive": false
+        },
+        {
+            "title": "Más",
+            "icon_on": "assets/custom-icons/mas-on.svg",
+            "icon_off": "assets/custom-icons/mas-off.svg",
+            "isActive": false
+        },
+        {
+            "title": "Soporte Técnico",
+            "icon_on": "assets/imgs/soporte.svg",
+            "icon_off": "assets/imgs/soporte.svg",
+            "isActive": false
+        },
+        {
+            "title": "Consulta y radica PQR",
+            "icon_on": "assets/imgs/consulta.svg",
+            "icon_off": "assets/imgs/consulta.svg",
+            "isActive": false
+        },
+        {
+            "title": "Mis Gestiones",
+            "icon_on": "assets/imgs/consulta.svg",
+            "icon_off": "assets/imgs/consulta.svg",
+            "isActive": false
+        }
+    ],
+    "hybridTabs": [
+        {
+            "title": "Factura",
+            "icon_on": "assets/custom-icons/factura-on.svg",
+            "icon_off": "assets/custom-icons/factura-off.svg",
+            "isActive": true
+        },
+        {
+            "title": "Consumos",
+            "icon_on": "assets/custom-icons/consumos-on.svg",
+            "icon_off": "assets/custom-icons/consumos-off.svg",
+            "isActive": false
+        },
+        {
+            "title": "Servicios",
+            "icon_on": "assets/custom-icons/servicios-on.svg",
+            "icon_off": "assets/custom-icons/servicios-off.svg",
+            "isActive": false
+        },
+        {
+            "title": "Compras",
+            "icon_on": "assets/custom-icons/offers-on.svg",
+            "icon_off": "assets/custom-icons/offers-off.svg",
+            "isActive": false
+        },
+        {
+            "title": "Más",
+            "icon_on": "assets/custom-icons/mas-on.svg",
+            "icon_off": "assets/custom-icons/mas-off.svg",
+            "isActive": false
+        },
+        {
+            "title": "Soporte Técnico",
+            "icon_on": "assets/imgs/soporte.svg",
+            "icon_off": "assets/imgs/soporte.svg",
+            "isActive": false
+        },
+        {
+            "title": "Consulta y radica PQR",
+            "icon_on": "assets/imgs/consulta.svg",
+            "icon_off": "assets/imgs/consulta.svg",
+            "isActive": false
+        }
+    ]
+}

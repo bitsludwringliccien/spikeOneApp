@@ -1,0 +1,358 @@
+{
+    "preplan": [
+        {
+            "subtitle": "Quincenal Plus con DOBLE Megas - Recibí 3GB + Min ilimitados a Movistar + Redes Gratis",
+            "btnTxt": "C$300",
+            "applist": [
+                [
+                    {
+                        "appName": "facebook",
+                        "icon": "assets/app-usage/facebook.png"
+                    },
+                    {
+                        "appName": "whatsapp",
+                        "icon": "assets/app-usage/whatsapp.png"
+                    },
+                    {
+                        "appName": "insta",
+                        "icon": "assets/app-usage/insta.png"
+                    },
+                    {
+                        "appName": "twitter",
+                        "icon": "assets/app-usage/twitter.png"
+                    },
+                    {
+                        "subtitle": "Vigencia 15 días"
+                    }
+                ]
+            ]
+        },
+        {
+            "subtitle": "Quincenal con DOBLE Megas - Recibí 2.4GB + 40 Min para toda Ni, Movistar CAM y USA + Redes Gratis",
+            "btnTxt": "C$200",
+            "applist": [
+                [
+                    {
+                        "appName": "facebook",
+                        "icon": "assets/app-usage/facebook.png"
+                    },
+                    {
+                        "appName": "whatsapp",
+                        "icon": "assets/app-usage/whatsapp.png"
+                    },
+                    {
+                        "appName": "insta",
+                        "icon": "assets/app-usage/insta.png"
+                    },
+                    {
+                        "appName": "twitter",
+                        "icon": "assets/app-usage/twitter.png"
+                    },
+                    {
+                        "subtitle": "Vigencia 15 días"
+                    }
+                ]
+            ]
+        },
+        {
+            "subtitle": "Semanal Plus con DOBLE Megas - Recibí 1.5GB + 25 Min para toda Ni, Movistar CAM y USA + 25 SMS + Redes Gratis",
+            "btnTxt": "C$100",
+            "applist": [
+                [
+                    {
+                        "appName": "facebook",
+                        "icon": "assets/app-usage/facebook.png"
+                    },
+                    {
+                        "appName": "whatsapp",
+                        "icon": "assets/app-usage/whatsapp.png"
+                    },
+                    {
+                        "appName": "insta",
+                        "icon": "assets/app-usage/insta.png"
+                    },
+                    {
+                        "appName": "twitter",
+                        "icon": "assets/app-usage/twitter.png"
+                    },
+                    {
+                        "subtitle": "Vigencia 7 días"
+                    }
+                ]
+            ]
+        },
+        {
+            "subtitle": "Semanal con DOBLE Megas - Recibí 800MB + 20 Min para toda Ni, Movistar CAM y USA + 20 SMS + Redes Gratis",
+            "btnTxt": " C$70",
+            "applist": [
+                [
+                    {
+                        "appName": "facebook",
+                        "icon": "assets/app-usage/facebook.png"
+                    },
+                    {
+                        "appName": "whatsapp",
+                        "icon": "assets/app-usage/whatsapp.png"
+                    },
+                    {
+                        "appName": "insta",
+                        "icon": "assets/app-usage/insta.png"
+                    },
+                    {
+                        "appName": "twitter",
+                        "icon": "assets/app-usage/twitter.png"
+                    },
+                    {
+                        "subtitle": "Vigencia 7 días"
+                    }
+                ]
+            ]
+        }
+    ],
+    "megapacks": [
+        {
+            "subtitle": "MEGA 7 con DOBLE DE TODO, Internet, Min y SMS ",
+            "description" : "Recibí 1.5GB + 80 Min Movistar CA y USA + 80 SMS + Redes sociales",
+            "btnTxt": "C$300",
+            "applist": [
+                [
+                    {
+                        "appName": "facebook",
+                        "icon": "assets/app-usage/facebook.png"
+                    },
+                    {
+                        "appName": "whatsapp",
+                        "icon": "assets/app-usage/whatsapp.png"
+                    },
+                    {
+                        "appName": "insta",
+                        "icon": "assets/app-usage/insta.png"
+                    },
+                    {
+                        "appName": "twitter",
+                        "icon": "assets/app-usage/twitter.png"
+                    },
+                    {
+                        "subtitle": "Vigencia 7 días"
+                    }
+                ]
+            ]
+        },
+        {
+            "subtitle": "MEGA 4 con DOBLE DE TODO, Internet, Min y SMS - Recibí 800MB + 40 Min Movistar CA y USA + 40 SMS + Redes gratis",
+            "btnTxt": "C$300",
+            "applist": [
+                [
+                    {
+                        "appName": "facebook",
+                        "icon": "assets/app-usage/facebook.png"
+                    },
+                    {
+                        "appName": "whatsapp",
+                        "icon": "assets/app-usage/whatsapp.png"
+                    },
+                    {
+                        "appName": "insta",
+                        "icon": "assets/app-usage/insta.png"
+                    },
+                    {
+                        "appName": "twitter",
+                        "icon": "assets/app-usage/twitter.png"
+                    },
+                    {
+                        "subtitle": "Vigencia 4 días"
+                    }
+                ]
+            ]
+        },
+        {
+            "subtitle": "MEGA 2 con DOBLE DE TODO, Internet, Min y SMS - Recibí 250MB + 10 Min Movistar CA y USA + 10 SMS + WHATSAPP gratis",
+            "btnTxt": "C$300",
+            "applist": [
+                [
+                    {
+                        "appName": "whatsapp",
+                        "icon": "assets/app-usage/whatsapp.png"
+                    },
+                    {
+                        "subtitle": "Vigencia 2 días"
+                    }
+                ]
+            ]
+        }
+    ],
+    "internet": [
+        {
+            "subtitle": "2x1 NAVPLUS Recibí 2GB",
+            "btnTxt": "C$50",
+            "applist": [
+                [
+                    {
+                        "subtitle": "Vigencia 15 días"
+                    }
+                ]
+            ]
+        },
+        {
+            "subtitle": "GB2 con DOBLE MEGAS 5GB + Redes Gratis",
+            "btnTxt": "C$600",
+            "applist": [
+                [
+                    {
+                        "appName": "facebook",
+                        "icon": "assets/app-usage/facebook.png"
+                    },
+                    {
+                        "appName": "whatsapp",
+                        "icon": "assets/app-usage/whatsapp.png"
+                    },
+                    {
+                        "appName": "insta",
+                        "icon": "assets/app-usage/insta.png"
+                    },
+                    {
+                        "appName": "twitter",
+                        "icon": "assets/app-usage/twitter.png"
+                    },
+                    {
+                        "subtitle": "Vigencia 15 días"
+                    }
+                ]
+            ]
+        },
+        {
+            "subtitle": "GB con DOBLE MEGAS 3GB + Redes Gratis",
+            "btnTxt": "C$250",
+            "applist": [
+                [
+                    {
+                        "appName": "facebook",
+                        "icon": "assets/app-usage/facebook.png"
+                    },
+                    {
+                        "appName": "whatsapp",
+                        "icon": "assets/app-usage/whatsapp.png"
+                    },
+                    {
+                        "appName": "insta",
+                        "icon": "assets/app-usage/insta.png"
+                    },
+                    {
+                        "appName": "twitter",
+                        "icon": "assets/app-usage/twitter.png"
+                    },
+                    {
+                        "subtitle": "Vigencia 15 días"
+                    }
+                ]
+            ]
+        },
+        {
+            "subtitle": "NAV700 con DOBLE MEGAS 1.5GB + Redes Gratis",
+            "btnTxt": "C$110",
+            "applist": [
+                [
+                    {
+                        "appName": "facebook",
+                        "icon": "assets/app-usage/facebook.png"
+                    },
+                    {
+                        "appName": "whatsapp",
+                        "icon": "assets/app-usage/whatsapp.png"
+                    },
+                    {
+                        "appName": "insta",
+                        "icon": "assets/app-usage/insta.png"
+                    },
+                    {
+                        "appName": "twitter",
+                        "icon": "assets/app-usage/twitter.png"
+                    },
+                    {
+                        "subtitle": "Vigencia 15 días"
+                    }
+                ]
+            ]
+        },
+        {
+            "subtitle": "NAV300 con DOBLE MEGAS 600MB + Redes Gratis",
+            "btnTxt": "C$50",
+            "applist": [
+                [
+                    {
+                        "appName": "facebook",
+                        "icon": "assets/app-usage/facebook.png"
+                    },
+                    {
+                        "appName": "whatsapp",
+                        "icon": "assets/app-usage/whatsapp.png"
+                    },
+                    {
+                        "appName": "insta",
+                        "icon": "assets/app-usage/insta.png"
+                    },
+                    {
+                        "appName": "twitter",
+                        "icon": "assets/app-usage/twitter.png"
+                    },
+                    {
+                        "subtitle": "Vigencia 15 días"
+                    }
+                ]
+            ]
+        },
+        {
+            "subtitle": "Noche Conectada - Navega toda la noche en tu celular desde 9 PM hasta las 6 AM por solo",
+            "btnTxt": "C$30",
+            "applist": []
+        }
+    ],
+    "minutos": [
+        {
+            "subtitle": "2x1 de 20 minutos Movistar - Recibí 40 minutos",
+            "btnTxt": "C$20",
+            "applist": [
+                [
+                    {
+                        "subtitle": "Vigencia 1 día"
+                    }
+                ]
+            ]
+        },
+        {
+            "subtitle": "2x1 de 30 minutos Movistar - Recibí 60 minutos",
+            "btnTxt": "C$30",
+            "applist": [
+                [
+                    {
+                        "subtitle": "Vigencia 4 días"
+                    }
+                ]
+            ]
+        },
+        {
+            "subtitle": "2x1 de 60 minutos Movistar - Recibí 120 minutos",
+            "btnTxt": "C$60",
+            "applist": [
+                [
+                    {
+                        "subtitle": "Vigencia 4 días"
+                    }
+                ]
+            ]
+        }
+    ],
+    "mensajes": [
+        {
+            "subtitle": "120 mensajes Movistar",
+            "btnTxt": "C$20",
+            "applist": [
+                [
+                    {
+                        "subtitle": "Vigencia 4 días"
+                    }
+                ]
+            ]
+        }
+    ]
+}

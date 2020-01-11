@@ -19,10 +19,11 @@ export class MessagesCard implements OnInit {
 
   async getMessages() {
     const id = this.consumptionsService.lineSelected;
-    await this.consumptionsService.getConsumptionsById(id).then(consumos => {
-      console.log(consumos);
-      this.messages = consumos.messages;
-    });
+    await this.consumptionsService.getConsumptionsById(id) //.toPromise()
+      .then(consumos => {
+        console.log(consumos);
+        this.messages = consumos.data.messages;
+      });
   }
 
 

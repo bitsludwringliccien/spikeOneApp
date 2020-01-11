@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="16px" viewBox="0 0 21 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>@2xIcon/envelop</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Reset-Password---POC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/envelop" stroke="#00377B">
+            <g>
+                <g id="Group-2" stroke-width="1.2">
+                    <rect id="Rectangle" x="0.6" y="0.6" width="19.7" height="14.7" rx="1.8"></rect>
+                    <path d="M0.913402468,1.14577752 C3.28346299,3.42276812 4.91569688,5.00166807 5.81010413,5.88247739 C7.5903467,7.63565441 8.77467112,8.97927422 9.56209377,9.4889705 C9.88247891,9.69635483 10.1335395,9.70193601 10.3010701,9.70193601 C10.3504937,9.70193601 10.712868,9.71422554 10.8321243,9.70193601 C11.1179576,9.67248049 11.4623939,9.4455988 11.6485067,9.27455774 C12.4266039,8.55947194 14.1202877,6.90166006 16.1596569,4.86445416 C16.9845658,4.04042036 18.2529603,2.80086148 19.9648404,1.14577752" id="Line" stroke-linecap="square"></path>
+                    <path d="M12.7367563,14.5976555 L18.6631493,8.75951395" id="Line-2" stroke-linecap="square" transform="translate(15.699953, 11.678585) scale(-1, 1) translate(-15.699953, -11.678585) "></path>
+                </g>
+                <path d="M2.14473083,14.7390011 L8.18810978,8.75951395" id="Line-2" stroke-width="1.2" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

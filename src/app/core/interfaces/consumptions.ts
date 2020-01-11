@@ -1,5 +1,5 @@
 export interface Consumptions {
-  data: Datum[];
+  data: Datum;
   config: Config;
   meta: Meta;
 }

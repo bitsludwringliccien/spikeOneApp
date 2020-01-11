@@ -12,7 +12,7 @@
             </ion-toolbar>
         </ion-card-header>
         <ion-card-content>
-            <a routerLink="/consumos/llamadas">{{ 'Ver Detalles' | uppercase }}</a>
+            <a (click)="onBrowser()">{{ 'Ver Detalles' | uppercase }}</a>
         </ion-card-content>
     </ion-card>
     <ion-card>
@@ -27,7 +27,7 @@
             </ion-toolbar>
         </ion-card-header>
         <ion-card-content>
-            <a routerLink="/consumos/mensajes">{{ 'Ver Detalles' | uppercase }}</a>
+            <a (click)="onBrowserTheme()">{{ 'Ver Detalles' | uppercase }}</a>
         </ion-card-content>
     </ion-card>
 </ion-content>

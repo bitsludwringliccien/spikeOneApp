@@ -1,0 +1,27 @@
+{
+    "HELLO": "Hello Nicargua",
+    "HELLO1": "ni1",
+    "HYBRID": {
+        "TITLE": "Saldo en Dinero",
+        "PREPAID": {
+            "TITLE": "Saldo Disponible"
+        }
+    },
+    "TOPTAB" : {
+        "TITLE1" : "PrePlan",
+        "TITLE2" : "MegaPacks",
+        "TITLE3" : "Minutos SMS",
+        "TITLE4" : "Roaming L.Distancia",
+        "TITLE5" : "Recargas"
+    },
+    "PACKAGEDETAIL" : {
+        "TITLE" : "Detalles de paquetes"
+    },
+    "GENERIC" : {
+        "BUY" : "COMPRAR"
+    },
+    "PACKAGE" : {
+        "AVAILABLE": "disponibles de",
+        "EXPIRE": "Vence en"
+    }
+}
